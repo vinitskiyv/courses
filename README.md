@@ -12,7 +12,6 @@ sudo pip3 install pipenv
 ###### Clone project from repository
 ```
 git clone https://github.com/vinitskiyv/courses.git
-cd courses/
 ```
 ###### Move to directory
 ```
