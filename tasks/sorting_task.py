@@ -59,3 +59,23 @@ result = [
     'Betgames',
     'Pragmatic Play Games'
 ]
+
+list1 = []
+for item in purchase_settings:
+    list1.append(item["wagerType"])
+
+list2 = []
+for purchase_type in PURCHASE_SETTINGS_ORDER:
+    if purchase_type in list1:
+        list2.append(WAGER_TYPES.get(purchase_type))
+
+
+example = [WAGER_TYPES.get(purchase_type)
+           for purchase_type in PURCHASE_SETTINGS_ORDER
+           if purchase_type in
+           [item["wagerType"] for item in purchase_settings]]
+
+print(list1)
+print(list2)
+print(example)
+print(list2==example)
