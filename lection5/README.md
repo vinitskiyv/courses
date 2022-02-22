@@ -29,12 +29,12 @@
 
 #### Общий вид
 ```
-def func(arg1, arg2, ... argN, *arg, name1=value1, name2=value2, **kwargs):
+def func(arg1, arg2, ... argN, *args, name1=value1, name2=value2, **kwargs):
     
     return arg
 
 
-def func(arg1, arg2, ... argN, *arg, name1=value1, name2=value2, **kwargs):
+def func(arg1, arg2, ... argN, *args, name1=value1, name2=value2, **kwargs):
     
     yield arg
 ```
